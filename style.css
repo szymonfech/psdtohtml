@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #111111;
+}
+.main-nav span {
+  color: #c3a30e;
+  font-weight: bolder;
+  font-size: 24px;
+}
+.main-nav button {
+  color: white;
+}
+
+.section-carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #111111;
+  height: 70vh;
+}
+.section-carousel .arrows {
+  background-color: #c3a30e;
+  border-radius: 100%;
+  width: 67px;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.section-front-info {
+  text-align: center;
+  margin: 80px 0;
+}
+
+.about-repair {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.about-repair button {
+  width: 166px;
+  height: 45px;
+  color: white;
+  padding: 5px;
+  background-color: #c3a30e;
+  border: none;
+}
+.about-repair .jumbotron {
+  background-image: url(/img/01.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about-repair * {
+  margin: 50px 0;
+}
+.about-repair img {
+  width: 350px;
+  height: 230px;
+}
+
+.our-services {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.our-services button {
+  width: 166px;
+  height: 45px;
+  color: white;
+  padding: 5px;
+  background-color: #c3a30e;
+  border: none;
+}
+.our-services .jumbotron {
+  background-image: url(/img/02.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.our-services .our-services--services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.our-services .our-services--services img {
+  width: 35px;
+  height: 35px;
+}
+.our-services .our-services--services__left,
+.our-services .our-services--services__right {
+  background-color: #a69130;
+}
+.our-services .our-services--services__center div {
+  background-color: #a69130;
+  margin: 20px;
+  padding: 20px;
+}
+
+.reason-why {
+  margin: 100px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  background-color: #020201;
+}
+.reason-why .reason-why--left {
+  width: 65%;
+  color: white;
+}
+.reason-why .reason-why--right {
+  width: 100%;
+  -webkit-clip-path: polygon(31% 0, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(31% 0, 100% 0, 100% 100%, 0% 100%);
+  background-image: url(img/peter-broomfiel.png);
+  background-position: center;
+}
+.reason-why .jumbotron {
+  text-align: center;
+  margin: 20px 0;
+  background-image: url(/img/03.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.reason-why ol {
+  margin-left: 20px;
+}
+.reason-why ol li::marker {
+  color: #c3a30e;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.maintenance {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.maintenance .jumbotron {
+  margin: 20px 0;
+  background-image: url(/img/04.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.maintenance button {
+  width: 166px;
+  height: 45px;
+  color: white;
+  padding: 5px;
+  background-color: #c3a30e;
+  border: none;
+}
+.maintenance * {
+  margin: 30px 0;
+}
+
+.customers-review {
+  text-align: center;
+}
+.customers-review .jumbotron {
+  margin: 50px 0;
+  background-image: url(/img/05.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.customers-review .customers-reveiw--feedback {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.customers-review .customers-reveiw--feedback div {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.customers-review .customers-reveiw--feedback div p {
+  background-color: #111111;
+  color: white;
+  padding: 40px;
+  position: relative;
+}
+.customers-review .customers-reveiw--feedback div p::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background-color: #111111;
+  -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+          clip-path: polygon(50% 100%, 0 0, 100% 0);
+  width: 20px;
+  height: 20px;
+  left: 49%;
+  bottom: -20px;
+}
+.customers-review img {
+  width: 60px;
+  height: 60px;
+}
+
+.contact-form {
+  text-align: center;
+}
+.contact-form .jumbotron {
+  margin: 50px 0;
+  background-image: url(/img/06.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contact-form button {
+  width: 166px;
+  height: 45px;
+  color: white;
+  padding: 5px;
+  background-color: #c3a30e;
+  border: none;
+}
+
+.map iframe {
+  width: 100%;
+  height: 600px;
+}
+
+footer {
+  background-color: #111111;
+  color: white;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+footer ol {
+  margin-left: 20px;
+}
+footer ol li::marker {
+  color: #c3a30e;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+@media (max-width: 768px) {
+  .section-carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #111111;
+    height: 100vh;
+  }
+  .reason-why--right {
+    display: none;
+  }
+  .reason-why--left {
+    width: 100%;
+  }
+  .customers-review .customers-reveiw--feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .customers-review .customers-reveiw--feedback div {
+    width: 80%;
+  }
+}/*# sourceMappingURL=style.css.map */
